@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cart {
+  width: 100vw !important;
+  max-height: 100vh !important;
+}
+@media screen and (min-width: 200px) and (max-width: 700px) {
+  .cards {
+    margin-left: 75px !important;
+  }
+  .header-image {
+    width: 75px !important;
+  }
+  #dropdown {
+    width: 275px !important;
+  }
+  #search {
+    width: 100px !important;
+  }
+  #form {
+    width: 400px !important;
+  }
+  #login {
+    width: 375px !important;
+  }
+}
